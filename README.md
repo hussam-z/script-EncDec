@@ -12,4 +12,3 @@ it's Z-EnDeC tool by Mohammad Hussam Alzeyyat
 For your know i don't use OOP in this version
 it's just " Procedural programming "
 
-Peace
