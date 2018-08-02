@@ -8,3 +8,6 @@ it's Z-EnDeC tool by Mohammad Hussam Alzeyyat
 #Running on python3
 #For execute script use this command in terminal 'python3 Z-EnDeC.py' not './Z-EnDeC.py'
 #can execute on linux and windows machine
+
+For your know i don't use OOP in this version
+it's just " Procedural programming "
