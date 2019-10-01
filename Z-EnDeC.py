@@ -577,11 +577,11 @@ def my_dec_blake2b():
     hash_i = input("please enter a hash : ")
     file_i = input("please enter a data file : ")
 
-    from hashlib import blacke2b
+    from hashlib import blake2b
     with open(file_i, mode='r')as f:
         for dec_hash in f:
             dec_hash=dec_hash.strip()
-            if blacke2b(dec_hash.encode()).hexdigest() == hash_i :
+            if blake2b(dec_hash.encode()).hexdigest() == hash_i :
                 print("hash is cracked : ",dec_hash)
 
         
@@ -591,11 +591,11 @@ def my_dec_blake2s():
     hash_i = input("please enter a hash : ")
     file_i = input("please enter a data file : ")
 
-    from hashlib import blacke2s
+    from hashlib import blake2s
     with open(file_i, mode='r')as f:
         for dec_hash in f:
             dec_hash=dec_hash.strip()
-            if blacke2s(dec_hash.encode()).hexdigest() == hash_i :
+            if blake2s(dec_hash.encode()).hexdigest() == hash_i :
                 print("hash is cracked : ",dec_hash)
 
         
